@@ -1,4 +1,4 @@
-/* styles.css */
+
 :root {
     --color1: #031f4b;
     --color2: #04396c;
@@ -8,7 +8,7 @@
     
     --scrollbar-thumb-color: var(--color3);
     --scrollbar-track-color: white;
-    --scrollbar-width: 3px; /* Adjust width as needed */
+    --scrollbar-width: 3px;
 }
 
 body {
@@ -49,7 +49,6 @@ li {
     background-color: var(--scrollbar-track-color);
 }
 
-/* Style for Firefox */
 * {
     scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
     scrollbar-width: thin;
