@@ -28,7 +28,7 @@
                 echo '<script>alert("Invalid username or password. Please try again.");</script>';
             }
             ?>
-            <a href="portfolio.php" class="go-back">Leave</a>
+            <a href="portfolio.php" class="go-back">My Portfolio</a>
             <p class="login-greeting">Have a great day ahead!</p>
         </div>
     </section>

@@ -26,7 +26,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($stmt_details->execute()) {
 
-        echo "<script>alert('Project details updated successfully.');</script>";
+        header("Location: cms.php");
+            exit;
     } else {
         echo "Error updating project details: " . $stmt_details->error;
     }
@@ -54,3 +55,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $conn->close();
 }
 ?>
+<!--<script>alert('Project details updated successfully.');</script>

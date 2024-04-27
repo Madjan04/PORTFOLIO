@@ -21,7 +21,8 @@ if (isset($_POST["project_id"]) && is_numeric($_POST["project_id"])) {
 
     if ($stmt->execute()) {
        
-        echo "success";
+        header("Location: cms.php");
+        exit(); 
     } else {
      
         echo "failure";
